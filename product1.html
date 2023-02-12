@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Store</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="logo personal">
+        </a>
+    </header>
+
+    <nav class="navbar">
+        <a class="navbar__link navbar__link--active" href="index.html">Tienda</a>
+        <a class="navbar__link" href="aboutUs.html">Nosotros</a>
+    </nav>
+
+    <main class="container">
+        <h1>VueJs</h1>
+
+        <div class="shirt">
+            <img class="shirt__img" src="img/1.jpg" alt="producto camisa">
+
+            <div class="shirt__inf">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis bibendum varius. In at aliquam lacus. Proin nec lacus tellus. Nam ac nibh et tortor aliquet gravida quis in metus. Nulla aliquet metus commodo ex cursus aliquam. Etiam sit amet dolor vitae purus tempus molestie. In dapibus faucibus quam eget tempor.
+                </p>
+                <form class="shirt__form">
+                    <select class="shirt__form--field">
+                        <option disabled selected>-Talla-</option>
+                        <option>Chica</option>
+                        <option>Mediana</option>
+                        <option>Grande</option>
+                        <option>XL</option>
+                    </select>
+                    <input class="shirt__form--field type="number" placeholder="Quantity" min="0">
+                    <input class="shirt__form--submit type="submit" value="Add To Cart">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__text">Front End Store -- Todos los derechos Reservados 2023.</p>
+    </footer>
+
+</body>
+</html>
